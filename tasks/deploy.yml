@@ -1,0 +1,3 @@
+- name: Deploy Application 
+  copy: src=index.html dest=/var/www/html
+  notify: Restart Apache2
